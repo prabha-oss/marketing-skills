@@ -1,0 +1,21 @@
+{
+  "name": "funnel-builder",
+  "description": "Generate marketing funnels based on business type. Auto-selects funnel type (free trial, demo, webinar, application, etc.) and outputs stages, copy elements, and Mermaid diagrams.",
+  "version": "1.0.0",
+  "author": {
+    "name": "prabha-oss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabha-oss/marketing-skills"
+  },
+  "license": "MIT",
+  "keywords": [
+    "funnel",
+    "marketing",
+    "conversion",
+    "lead-generation",
+    "sales-funnel",
+    "customer-journey"
+  ]
+}

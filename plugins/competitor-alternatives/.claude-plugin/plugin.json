@@ -1,0 +1,21 @@
+{
+  "name": "competitor-alternatives",
+  "description": "Create competitor comparison and alternative pages for SEO and sales enablement. Covers singular alternative, plural alternatives, you vs competitor, and competitor vs competitor page formats.",
+  "version": "1.0.0",
+  "author": {
+    "name": "prabha-oss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabha-oss/marketing-skills"
+  },
+  "license": "MIT",
+  "keywords": [
+    "competitor",
+    "alternatives",
+    "comparison",
+    "seo",
+    "sales-enablement",
+    "landing-pages"
+  ]
+}

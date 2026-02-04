@@ -1,0 +1,19 @@
+{
+  "name": "marketing-skills",
+  "description": "Marketing automation skills for Claude Code - cold outreach, funnels, competitor analysis, and more.",
+  "version": "1.0.0",
+  "author": {
+    "name": "prabha-oss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabha-oss/marketing-skills"
+  },
+  "license": "MIT",
+  "plugins": [
+    "plugins/competitor-alternatives",
+    "plugins/cold-calling",
+    "plugins/cold-email",
+    "plugins/funnel-builder"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "cold-calling",
+  "description": "Complete cold calling system for B2B outreach. Includes ICP qualification, opener generation, objection handling, discovery questions, and full script assembly.",
+  "version": "1.0.0",
+  "author": {
+    "name": "prabha-oss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabha-oss/marketing-skills"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cold-calling",
+    "sales",
+    "outbound",
+    "b2b",
+    "objection-handling",
+    "scripts"
+  ]
+}

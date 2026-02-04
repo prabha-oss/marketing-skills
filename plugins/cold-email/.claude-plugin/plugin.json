@@ -1,0 +1,21 @@
+{
+  "name": "cold-email",
+  "description": "Cold email system for B2B outreach. Includes framework selection (PAS, 4P, AIDA), subject lines, email writing/rewriting, follow-up sequences, and CTA optimization.",
+  "version": "1.0.0",
+  "author": {
+    "name": "prabha-oss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabha-oss/marketing-skills"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cold-email",
+    "email-marketing",
+    "outbound",
+    "b2b",
+    "sequences",
+    "copywriting"
+  ]
+}
