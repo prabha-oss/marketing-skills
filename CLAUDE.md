@@ -13,6 +13,7 @@ A marketplace of expert marketing plugins for Claude Code. Each plugin can be in
 | funnel-builder | `/funnel-builder` | Marketing funnels with stages, copy, diagrams |
 | competitor-alternatives | `/competitor-alternatives` | Competitor comparison and alternative pages |
 | landing-page-intake | `/landing-page-intake` | Structured intake for landing page copy briefs |
+| landing-page-writer | `/landing-page-writer` | Write landing page copy section-by-section |
 
 ## Cold Calling Skill
 
@@ -129,6 +130,39 @@ SECTION INPUTS
 - Must confirm structure before finalizing
 - Recommend sections based on answers (not generic)
 - Add [TBD proof] placeholders if proof missing
+
+## Landing Page Writer Skill
+
+### Purpose
+
+Writes landing page copy using intake summary. Step-by-step lock-in workflow.
+
+### Requires
+
+1. INTAKE SUMMARY (from landing-page-intake)
+2. CONFIRMED STRUCTURE (from landing-page-intake)
+3. STYLE REFERENCE COPY (user pastes example copy)
+
+### Lock-In Workflow
+
+```
+Generate 10 options → User picks ID → "Locked: {ID}" → Next micro-step
+```
+
+### Micro-Steps (per section)
+
+**Hero:** H1 headline → H2 subheadline → H3 credibility → H4 CTA → H5 microcopy
+**Features:** F0 themes → Fi1 header → Fi2 paragraph → Fi3 proof placeholder
+**Process:** P1 all titles → P2-Pn subtitles → P_last closing line
+**FAQ:** FAQ0 questions → FAQi answers
+**CTA:** CTA1 headline → CTA2 button → CTA3 microcopy
+
+### Key Rules
+
+- Never invent proof (use `[TBD proof]`)
+- Match style reference tone/rhythm
+- No buzzwords (see banned-words.md)
+- One micro-step per message
 
 ## Best Practices
 

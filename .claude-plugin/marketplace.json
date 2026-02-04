@@ -15,6 +15,7 @@
     "plugins/cold-calling",
     "plugins/cold-email",
     "plugins/funnel-builder",
-    "plugins/landing-page-intake"
+    "plugins/landing-page-intake",
+    "plugins/landing-page-writer"
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "landing-page-writer",
+  "description": "Conversion-focused landing page copywriter. Takes intake summary from landing-page-intake and writes copy section-by-section with step-by-step lock-in workflow. Matches user's style reference.",
+  "version": "1.0.0",
+  "author": {
+    "name": "prabha-oss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabha-oss/marketing-skills"
+  },
+  "license": "MIT",
+  "keywords": [
+    "landing-page",
+    "copywriting",
+    "conversion",
+    "hero",
+    "cta",
+    "features"
+  ]
+}

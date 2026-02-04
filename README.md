@@ -15,6 +15,7 @@ npx skills add prabha-oss/marketing-skills/cold-email
 npx skills add prabha-oss/marketing-skills/funnel-builder
 npx skills add prabha-oss/marketing-skills/competitor-alternatives
 npx skills add prabha-oss/marketing-skills/landing-page-intake
+npx skills add prabha-oss/marketing-skills/landing-page-writer
 ```
 
 ## Available Plugins
@@ -26,6 +27,7 @@ npx skills add prabha-oss/marketing-skills/landing-page-intake
 | `funnel-builder` | Marketing funnels with stages, copy, and Mermaid diagrams |
 | `competitor-alternatives` | Competitor comparison and alternative pages for SEO |
 | `landing-page-intake` | Structured intake process for landing page copy briefs |
+| `landing-page-writer` | Section-by-section landing page copywriter with lock-in workflow |
 
 ## Plugin Details
 
@@ -74,6 +76,15 @@ Structured intake process:
 - **Confirmation flow** — User approves before finalizing
 - **Copy-ready brief** — Outputs intake summary + section inputs
 
+### Landing Page Writer
+
+Section-by-section copywriter:
+- **Lock-in workflow** — Generate 10 options → User picks → Lock → Next micro-step
+- **Style matching** — Matches tone/rhythm from user's reference copy
+- **Micro-steps** — Hero (H1-H5), Features (F0-F3), Process (P1-Pn), FAQ, CTA
+- **No buzzwords** — Enforced banned words list for concrete copy
+- **Length limits** — Strict character/word counts per element
+
 ## Usage
 
 After installation, use skills with any compatible AI agent:
@@ -85,6 +96,7 @@ After installation, use skills with any compatible AI agent:
 "Build a funnel for my $2k coaching program"
 "Create a comparison page for Notion vs Coda"
 "Start landing page intake for my service business"
+"Write landing page copy using my intake summary"
 ```
 
 ## Project Structure
@@ -116,9 +128,14 @@ marketing-skills/
     │   └── skills/competitor-alternatives/
     │       ├── SKILL.md
     │       └── references/
-    └── landing-page-intake/
+    ├── landing-page-intake/
+    │   ├── .claude-plugin/plugin.json
+    │   └── skills/landing-page-intake/
+    │       ├── SKILL.md
+    │       └── references/
+    └── landing-page-writer/
         ├── .claude-plugin/plugin.json
-        └── skills/landing-page-intake/
+        └── skills/landing-page-writer/
             ├── SKILL.md
             └── references/
 ```
