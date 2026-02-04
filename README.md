@@ -15,6 +15,7 @@ npx skills add prabha-oss/marketing-skills
 | `competitor-alternatives` | Create competitor comparison and alternative pages for SEO and sales enablement |
 | `cold-calling` | Complete cold calling system: openers, objection handling, discovery, scripts |
 | `cold-email` | Cold email system: frameworks, sequences, CTAs, rewriting |
+| `funnel-builder` | Generate marketing funnels with stages, copy, and Mermaid diagrams |
 
 ## Skill Details
 
@@ -39,6 +40,19 @@ Full taxonomy of sub-skills:
 - **Follow-Up Sequence Builder** — Multi-touch sequences
 - **CTA Optimizer** — Improve call-to-action conversion
 
+### Funnel Builder
+
+Auto-selects funnel type based on business:
+- **Free Trial Funnel** — SaaS, low-touch
+- **Demo Request Funnel** — SaaS, high-touch
+- **Strategy Call Funnel** — Agency/services
+- **Product Funnel** — E-commerce
+- **Webinar Funnel** — Courses, mid-ticket
+- **Application Funnel** — High-ticket coaching
+- **Local Lead Funnel** — Local services
+
+Outputs: Stage breakdown + copy elements + Mermaid diagram
+
 ### Competitor Alternatives
 
 Page formats covered:
@@ -57,6 +71,8 @@ After installation, use skills with any compatible AI agent (Claude Code, Cursor
 "Handle the 'send me an email' objection"
 "Create a comparison page for Notion vs Coda"
 "Rewrite this cold email to be shorter"
+"Build a funnel for my coaching business"
+"Create a lead gen funnel for my SaaS"
 ```
 
 ## Philosophy
