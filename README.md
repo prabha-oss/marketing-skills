@@ -14,6 +14,7 @@ npx skills add prabha-oss/marketing-skills/cold-calling
 npx skills add prabha-oss/marketing-skills/cold-email
 npx skills add prabha-oss/marketing-skills/funnel-builder
 npx skills add prabha-oss/marketing-skills/competitor-alternatives
+npx skills add prabha-oss/marketing-skills/landing-page-intake
 ```
 
 ## Available Plugins
@@ -24,6 +25,7 @@ npx skills add prabha-oss/marketing-skills/competitor-alternatives
 | `cold-email` | Cold email frameworks (PAS, 4P, AIDA), sequences, CTAs |
 | `funnel-builder` | Marketing funnels with stages, copy, and Mermaid diagrams |
 | `competitor-alternatives` | Competitor comparison and alternative pages for SEO |
+| `landing-page-intake` | Structured intake process for landing page copy briefs |
 
 ## Plugin Details
 
@@ -64,6 +66,14 @@ Page formats covered:
 - You vs Competitor pages
 - Competitor vs Competitor pages
 
+### Landing Page Intake
+
+Structured intake process:
+- **17-question discovery** — Collects all info needed for copy
+- **Structure recommendation** — Service vs product base, optional sections
+- **Confirmation flow** — User approves before finalizing
+- **Copy-ready brief** — Outputs intake summary + section inputs
+
 ## Usage
 
 After installation, use skills with any compatible AI agent:
@@ -74,6 +84,7 @@ After installation, use skills with any compatible AI agent:
 "Handle the 'send me an email' objection"
 "Build a funnel for my $2k coaching program"
 "Create a comparison page for Notion vs Coda"
+"Start landing page intake for my service business"
 ```
 
 ## Project Structure
@@ -100,9 +111,14 @@ marketing-skills/
     │   └── skills/funnel-builder/
     │       ├── SKILL.md
     │       └── references/
-    └── competitor-alternatives/
+    ├── competitor-alternatives/
+    │   ├── .claude-plugin/plugin.json
+    │   └── skills/competitor-alternatives/
+    │       ├── SKILL.md
+    │       └── references/
+    └── landing-page-intake/
         ├── .claude-plugin/plugin.json
-        └── skills/competitor-alternatives/
+        └── skills/landing-page-intake/
             ├── SKILL.md
             └── references/
 ```

@@ -1,0 +1,21 @@
+{
+  "name": "landing-page-intake",
+  "description": "Structured intake process for landing pages. Collects minimum information needed to write high-quality copy. Recommends page structure based on business type (product vs service). Outputs confirmed structure ready for copywriting.",
+  "version": "1.0.0",
+  "author": {
+    "name": "prabha-oss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabha-oss/marketing-skills"
+  },
+  "license": "MIT",
+  "keywords": [
+    "landing-page",
+    "intake",
+    "discovery",
+    "copywriting",
+    "conversion",
+    "lead-generation"
+  ]
+}

@@ -12,6 +12,7 @@ A marketplace of expert marketing plugins for Claude Code. Each plugin can be in
 | cold-email | `/cold-email` | Cold email frameworks, sequences, CTAs |
 | funnel-builder | `/funnel-builder` | Marketing funnels with stages, copy, diagrams |
 | competitor-alternatives | `/competitor-alternatives` | Competitor comparison and alternative pages |
+| landing-page-intake | `/landing-page-intake` | Structured intake for landing page copy briefs |
 
 ## Cold Calling Skill
 
@@ -95,6 +96,39 @@ Each funnel includes:
 - Depth over surface
 - Help them decide
 - Modular architecture
+
+## Landing Page Intake Skill
+
+### Purpose
+
+Collects minimum information needed to write landing page copy. Does NOT write copy — outputs a structured brief.
+
+### Question Flow (17 questions max)
+
+**Batch 1 (Q0-Q4):** Business type, name, offer, audience, CTA
+**Batch 2 (Q5-Q8):** Trigger, problems, outcome, timeframe
+**Batch 3 (Q9-Q11):** Differentiation, proof
+**Batch 4 (Q12-Q16):** Process, objections, boundaries
+
+### Output
+
+```
+INTAKE SUMMARY
+[All answers organized]
+
+CONFIRMED LANDING PAGE STRUCTURE
+[Recommended sections in order]
+
+SECTION INPUTS
+[Copy-ready notes per section]
+```
+
+### Key Rules
+
+- Max 4 questions per message
+- Must confirm structure before finalizing
+- Recommend sections based on answers (not generic)
+- Add [TBD proof] placeholders if proof missing
 
 ## Best Practices
 
